@@ -1,0 +1,43 @@
+{
+  "name": "line-item-creator",
+  "description": "Line Item Creator",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "attio": "attio",
+    "dev": "attio dev",
+    "build": "attio build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rm -rf lib && rm -rf dist",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": ""
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.1.1",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.0.4",
+    "@types/react": "19.2.14",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-simple-import-sort": "^14.0.0",
+    "node-fetch": "3.3.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.70.1"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.4.0",
+    "attio": "latest",
+    "react": "19.2.4",
+    "zod": "3.25.67"
+  },
+  "overrides": {
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    }
+  }
+}

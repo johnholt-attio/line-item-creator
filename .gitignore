@@ -1,0 +1,10 @@
+node_modules
+graphql.d.ts
+.attio
+.env
+.env.local
+.DS_Store
+.cursor
+.claude/settings.local.json
+dist
+lib
